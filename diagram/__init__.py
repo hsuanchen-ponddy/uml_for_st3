@@ -33,7 +33,7 @@ def setup():
     ACTIVE_VIEWER = None
 
     sublime_settings = load_settings("Diagram.sublime-settings")
-    print("Viewer Setting: " + sublime_settings.get("viewer"))
+    #print("Viewer Setting: " + sublime_settings.get("viewer"))
 
     for processor in AVAILABLE_PROCESSORS:
         try:
